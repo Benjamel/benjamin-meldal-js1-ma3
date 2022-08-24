@@ -1,10 +1,6 @@
 const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating&key=c3a78d5ab696462eb8c76373bd15ece2";
 
-
-
 const resultsContainer = document.querySelector(".results");
-
-
 
 async function callGames() {
     try {
